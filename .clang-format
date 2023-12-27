@@ -1,0 +1,16 @@
+---
+BasedOnStyle: LLVM
+IndentWidth: 4
+Language: Cpp
+DerivePointerAlignment: false
+PointerAlignment: Right
+# AlignArrayOfStructures: Right
+ColumnLimit: 120
+SortIncludes: true
+AlignTrailingComments: true
+AlignConsecutiveMacros: AcrossEmptyLinesAndComments
+# AlignConsecutiveAssignments: Consecutive
+# AlignConsecutiveMacros: 
+#   Enabled: true
+#   AcrossEmptyLines: true
+#   AcrossComments: true
