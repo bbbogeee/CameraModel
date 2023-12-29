@@ -1,3 +1,7 @@
+#ifndef __PINHOLE_H__
+#define __PINHOLE_H__
+
+#include "types.h"
 #include <iostream>
 #include <string>
 
@@ -50,3 +54,5 @@ class CameraModel {
     OpticalCharacteristics opticalCharacteristics_;
     ImagingCharacteristics imagingCharacteristics_;
 };
+
+#endif
